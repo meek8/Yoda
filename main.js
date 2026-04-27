@@ -45,9 +45,6 @@ function setupNumberButton(numberButton) {
     });
 }
 
-/**
- * Helper function to find adjacent identical numbers in the 6x6 grid.
- */
 function findAdjacentMatches(row, col, value) {
     const table = document.querySelector('#app table');
     const matches = [];
